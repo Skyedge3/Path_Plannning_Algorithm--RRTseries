@@ -1,0 +1,3 @@
+load mapsStatic.mat
+occupancyMapObj = occupancyMap(map, 1);
+save('mapsStat.mat', 'occupancyMapObj');
